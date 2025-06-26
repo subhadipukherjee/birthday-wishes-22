@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Mohima 🎂</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0;
+      box-sizing: border-box;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 4em;
+      margin-top: 1em;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff, 0 0 20px #f0f, 0 0 30px #f0f; }
+      to { text-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; }
+    }
+
+    .photos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 2em 0;
+    }
+
+    .photos img {
+      width: 300px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .photos img:hover {
+      transform: scale(1.05);
+    }
+
+    .message {
+      font-size: 1.8em;
+      margin: 2em;
+      padding: 1em;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 15px;
+      line-height: 1.8;
+      animation: fadeIn 3s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    audio {
+      margin-top: 2em;
+    }
+
+    footer {
+      margin: 3em 0 1em;
+      font-size: 1.2em;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎉 Happy Birthday Mohima 🎉</h1>
+
+  <div class="photos">
+    <img src="photo1.jpg" alt="Birthday Girl Photo 1">c:\Users\SUBHADIP\Downloads\your-photo1.jpg
+    <img src="photo2.jpg" alt="Birthday Girl Photo 2">c:\Users\SUBHADIP\Downloads\your-photo2.jpg
+    <img src="photo3.jpg" alt="Birthday Girl photo 3">c:\Users\SUBHADIP\Downloads\your-photo3.jpg
+  </div>
+
+  <div class="message">
+    Dear Mohima,<br><br>
+    Wishing you a day filled with love, laughter, and unforgettable moments. You light up every room with your smile, and your presence makes life so much more beautiful. On this special day, I hope all your dreams come true.<br><br>
+    Stay happy, stay blessed, and always keep shining like the star you are!<br><br>
+    🎂 With all my heart, <br>
+    — Subhadip 💖
+  </div>
+
+  <audio controls autoplay loop>
+    <source src="happy-birthday.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <footer>🎈 Created with love by Subhadip | 26 June 2025 🎈</footer>
+
+</body>
+</html>
